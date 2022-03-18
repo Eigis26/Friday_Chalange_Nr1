@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html {
+    height: 100%;
+}
+nav {
+    max-width: 100px;
+    background-color: #F7F6FF;
+    display:flex;
+    flex-flow: column;
+    text-align: center;
+    padding: 5.2rem 0 0 0;
+    height: 100%;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.cont > div:hover {
+    border-radius: 25px 0 0 25px;
+    background-color: #FFFFFF;
+    padding: 2rem;
+    position: relative;
+}
+nav > div > div > a > p {
+    display: none;
+    font-size: 16px;
+    margin: 0.4rem 0 0 1.9rem;
+    position: absolute;
+}
+.logo > .line {
+    border-bottom: 0.2rem solid #C4C4C4;
+    width: 62.24px;
+    margin: 24.03px 0 31.97px 2rem;
+}
+.calendar, .cubic, .games{
+    margin-top: 3.4rem;
+}
+nav:hover {
+    max-width: 206px;
+}
+nav:hover > div > div > a >  p {
+    display: inline;
+    text-align: center;
+    color: #02577A;
+}
+nav:hover > .logo > .line {
+    width: 128.22px;
+    margin: 24.03px 0 31.97px 39px;
+}
+nav:hover > .cont {
+    margin-left: 43px;
+    text-align: left;
+}
+.home:hover{
+    margin: -2rem 0 -2rem -2rem;
+}
+.calendar:hover,
+.cubic:hover,
+.games:hover{
+
+    margin: 1.4rem 0 -2rem -2rem;
+
+}
+footer {
+    text-align: center;
+    font-size: 11px;
+    width: 184px;
+    height: 24px;
+    position: relative;
+    margin: 0 auto 0 auto;
+    bottom: 30px;
+}
+.ftline {
+    border-top: 1px solid #02577A;
+    width: 346px;
+    margin: -1rem 0 1rem -8rem;
+}
